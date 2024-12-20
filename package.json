@@ -1,0 +1,14 @@
+{
+  "name": "server_node",
+  "version": "1.0.0",
+  "description": "servidor con informacion de cursos",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Monica Pardo",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
